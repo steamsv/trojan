@@ -76,7 +76,7 @@ if [ $real_addr == $local_addr ] ; then
 	if test -s /usr/src/trojan-cert/fullchain.cer; then
         cd /usr/src
 	#wget https://github.com/steamsv/trojan-gfw/releases/download/v1.13.0/trojan-1.13.0-linux-amd64.tar.xz
-	wget https://github.com/steamsv/trojan-gfw/releases/download/v1.14.0/trojan-1.14.0-linux-amd64.tar.xz
+	wget https://steamsv.com/trojan-1.14.0-linux-amd64.tar.xz
 	tar xf trojan-1.*
 	#下载trojan客户端
 	wget https://github.com/steamsv/trojan/raw/master/trojan-cli.zip
